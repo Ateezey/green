@@ -165,7 +165,7 @@ export class TpTodos extends LitElement {
         }
       </style>
       <gds-flex flex-direction="column" gap="m">
-        <gds-flex justify-content="space-between">
+        <gds-flex display="none; m{flex};" justify-content="space-between">
           <gds-text tag="h2" font-size="detail-m">Att göra</gds-text>
           <button class="expand-button" @click="${this.#handleClickButton}">
             <gds-text font-size="detail-m"

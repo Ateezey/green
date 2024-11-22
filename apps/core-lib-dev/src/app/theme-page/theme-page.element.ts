@@ -25,6 +25,7 @@ import '../../components/todos'
 import '../../components/empty-konton'
 import '../../components/empty-card'
 import '../../components/expenses'
+import '../../components/theme-fab'
 import '../../components/savings'
 import '../../components/page-section'
 import './style.css'
@@ -79,6 +80,7 @@ export class ThemePage extends LitElement {
               <tp-accounts-modal></tp-accounts-modal>
               <tp-accounts></tp-accounts>
               <tp-expenses></tp-expenses>
+              <tp-fab></tp-fab>
             </gds-flex>
             <gds-flex
               grid-column="1; m{6 / span 4}"
